@@ -1,0 +1,56 @@
+h1
+{
+  font-family: "Calibri";
+  font-style: normal;
+  color:#ff3399;
+  text-shadow: 2px 2px #ffff00;
+  font-size: 36px;
+  border-style: groove;
+  border-color: #FFCC00;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+body
+{
+
+  background-image: url(BG_Image.jpg);
+
+}
+h2
+{
+  font-family: "Times New Roman";
+  font-style: normal;
+  color: #FFFF33;
+  font-size: 24px;
+  text-shadow: 2.5px 2.5px #FF0000;
+
+}
+.Dress_id_Number_of_recom
+{
+  font-family: monospace;
+  font-size: 18px;
+  color: #ff3399;
+  text-shadow: 0.5px 0.5px #ffff00;
+  font-style: normal;
+  background: #282828;
+  border: 5px solid white;
+  border-style: double;
+  margin-left: 200px;
+  margin-right:200px;
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+#sub
+{
+  background-color: #FFCC00;
+  width: 120px;
+  height: 30px;
+  font-family: "Calibri";
+  color: #000000;
+  font-style:monospace;
+  font-size: 18px;
+  border-radius: 30px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+
+}

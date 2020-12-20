@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="{% static 'css/project_master.css' %}">
+    <div class="Dress_id_Number_of_recom">
+      <form class="" action="result" method="get" align='center' >
+
+
+        <h1 align='center'>Welcome to Cloth Recommendation System</h1>
+
+        <h2 align='center'>Enter the details to get Recommendations</h2>
+
+        <label for="">Dress Id</label><br>
+        <input type="number" name="dress_id" value="" placeholder="dress_id" required id="dress_id">
+        <p></p>
+        <label for="">Number of Recommendation</label><br>
+        <input type="number" name="num_recomm" value="" placeholder="num_recomm" required id="num_recomm">
+        <p></p>
+        <input id='sub' type="submit" name="submit_btn" value="SUBMIT">
+        <p></p>
+
+    </form>
+    </div>
+
+
+  </body>
+</html>
